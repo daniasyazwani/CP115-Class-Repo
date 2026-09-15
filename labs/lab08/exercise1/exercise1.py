@@ -9,7 +9,7 @@ elif (gpa >= 3.5) and (credit_hours >= 12):
 elif (gpa >= 2.0): 
     classification = "Good Standing"
 else:
-    classification = "Acedamic Probation"
+    classification = "Acadamic Probation"
 
 
 
