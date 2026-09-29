@@ -1,4 +1,7 @@
 score = int(input())
+total
+
+while score != -1
 
 
 
