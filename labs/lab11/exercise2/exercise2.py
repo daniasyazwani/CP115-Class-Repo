@@ -1,7 +1,13 @@
 score = int(input())
-total
+total_a = 0
+total_b = 0
+turn = 0
 
-while score != -1
+while score != -1:
+    if turn = 2
+    total_a += score
+
+
 
 
 
