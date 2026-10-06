@@ -1,14 +1,15 @@
 correct_password = "python123"
-attempts = 0
-login_succesful = False
+attempts_used = 0
+login_successful = False
+max_attempts = 3
 
-while attempts < 3:\
+while attempts_used < max_attempts:
     password = input("Enter password")
-    attempts += 1
+    attempts_used += 1
 
     if password == correct_password:
-        login_succesful = True
-        break
+        login_successful = True
+        break # Exit immediately
     
 
 
