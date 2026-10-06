@@ -4,7 +4,7 @@ login_successful = False
 max_attempts = 3
 
 while attempts_used < max_attempts:
-    password = input("Enter password:")
+    password = input()
     attempts_used += 1
 
     if password == correct_password:
